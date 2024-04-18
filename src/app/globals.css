@@ -1,4 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@tailwind variants;
+@layer components {
+  .li-navbar {
+    @apply text-bold text-lg;
+  }
+}

@@ -17,3 +17,12 @@ page.js, page.jsx page.tsx 파일을 만든다.
   3) hello 페이지에 const로 name, age, introduce 라는 변수에 적절한 문자열을 저장한다.
   4) 저장한 문자열을 적절히 보여준다.
 
+
+tip.
+  1. tailwind 때문에 globals.css에 뜨는 거슬리는 경우
+    ./vscode/settings.json을 만들고 아래를 복붙 후 저장
+      {
+        "files.associations": {
+          "*.css": "tailwindcss"
+        }
+      }
