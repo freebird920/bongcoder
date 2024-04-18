@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
-@layer components {
-  .li-navbar {
-    @apply text-bold text-lg;
 
+@layer components {
+  .li-navbar {  /*.[클래스명]으로 작명한다.*/
+    @apply font-bold text-lg hover:bg-green-500;/*@apply를 이용하면 tailwind의 calssname을 그대로 사용 가능하다. */ 
+    background-color : blue; /*일반 css 는 이렇게 쓰면 된다.*/
   }
 }
