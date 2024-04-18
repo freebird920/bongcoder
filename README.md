@@ -18,13 +18,14 @@ page.js, page.jsx page.tsx 파일을 만든다.
 
 
 # tips.
-  ## tailwind 때문에 globals.css에 뜨는 거슬리는 경우
+## tailwind 때문에 globals.css에 뜨는 거슬리는 경우
 
-  ./vscode/settings.json을 만들고 아래를 복붙 후 저장
-        ```
-        {
-          "files.associations": {
-            "*.css": "tailwindcss"
-          }
-        }
-        ```
+./vscode/settings.json을 만들고 아래를 복붙 후 저장
+
+```json     
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
+```
