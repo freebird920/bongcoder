@@ -29,3 +29,13 @@ It's time to practice Next.js
   }
 }
 ```
+
+## css, tailwind에서 class 만드는 법
+```css
+@layer components {
+  .li-navbar {  //".클래스명"으로 작명 
+    @apply text-bold text-lg; //@apply를 이용하면 tailwind의 calssname을 그대로 사용 가능하다.
+    background-color : black; //일반 css 는 이렇게 쓰면 된다.
+  }
+}
+```
