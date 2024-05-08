@@ -2,10 +2,15 @@ Hi. Bong-Coders.
 
 It's time to practice Next.js
 
-# how to route?
 
-## VS code 설치
+# 개발환경 세팅
+
+### VS code 설치
 [다운로드링크](https://code.visualstudio.com/)
+### node.js
+[다운로드링크](https://nodejs.org/en)
+
+# how to route?
 
 
 1. ./src/app/ 아래에 적절한 이름의 폴더를 만든다.
