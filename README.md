@@ -10,6 +10,7 @@ vscode를 설치한다.
 [다운로드링크](https://code.visualstudio.com/)
 ### node.js
 node.js를 설치한다.
+![Node.js Download Image](https://github.com/freebird920/bongcoder/blob/master/src/markdown/img/nodejsdownload.png?raw=true)
 [다운로드링크](https://nodejs.org/en)
 ### next.js 설치
 1. vscode에서
