@@ -6,9 +6,15 @@ It's time to practice Next.js
 # 개발환경 세팅
 
 ### VS code 설치
+vscode를 설치한다.
 [다운로드링크](https://code.visualstudio.com/)
 ### node.js
+node.js를 설치한다.
 [다운로드링크](https://nodejs.org/en)
+### next.js 설치
+1. vscode에서
+1. <kbd>ctrl</kbd> + <kbd>`</kbd>
+1. 터미널에 npx create-next-app@latest 입력
 
 # how to route?
 
