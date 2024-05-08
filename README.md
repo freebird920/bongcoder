@@ -3,15 +3,21 @@ Hi. Bong-Coders.
 It's time to practice Next.js
 
 
-# 개발환경 세팅
+## 개발환경 세팅
+
+
+    개발에 앞서 개발 환경을 세팅합니다. IDE(통합개발환경)는 가장 이용자가 많은 VS code를 사용합니다. 또, next.js를 이용하여 풀스택 개발을 해볼 것이기 때문에 node.js를 설치합니다.   
 
 ### VS code 설치
-vscode를 설치한다.
+vscode를 설치한다. <br/>
 [다운로드링크](https://code.visualstudio.com/)
-### node.js
-node.js를 설치한다.
-![Node.js Download Image](https://github.com/freebird920/bongcoder/blob/master/src/markdown/img/nodejsdownload.png?raw=true)
+![VS Code Download Image](https://github.com/freebird920/bongcoder/blob/master/src/markdown/img/vscodedown.png?raw=true)
+
+
+### node.js 설치
+node.js를 설치한다. <br/>
 [다운로드링크](https://nodejs.org/en)
+![Node.js Download Image](https://github.com/freebird920/bongcoder/blob/master/src/markdown/img/nodejsdownload.png?raw=true)
 ### next.js 설치
 1. vscode에서
 1. <kbd>ctrl</kbd> + <kbd>`</kbd>
