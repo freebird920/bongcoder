@@ -8,6 +8,10 @@ It's time to practice Next.js
 
     개발에 앞서 개발 환경을 세팅합니다. IDE(통합개발환경)는 가장 이용자가 많은 VS code를 사용합니다. 또, next.js를 이용하여 풀스택 개발을 해볼 것이기 때문에 node.js를 설치합니다.   
 
+#### 순서
+1. [VS code 설치](#vs-code-설치) 
+1. [node.js 설치](#nodejs-설치)
+
 ### VS code 설치
 vscode를 설치한다. <br/>
 [다운로드링크](https://code.visualstudio.com/)
