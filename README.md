@@ -22,10 +22,17 @@ vscode를 설치한다. <br/>
 node.js를 설치한다. <br/>
 [다운로드링크](https://nodejs.org/en)
 ![Node.js Download Image](https://github.com/freebird920/bongcoder/blob/master/src/markdown/img/nodejsdownload.png?raw=true)
+
 ### next.js 설치
 1. vscode에서
 1. <kbd>ctrl</kbd> + <kbd>`</kbd>
 1. 터미널에 npx create-next-app@latest 입력
+```bash
+npx create-next-app@latest
+```
+
+[오픈채팅방](https://open.kakao.com/o/gcyGpNmg)에 오류코드가 함께 나오게 스크린샷을 찍어주시면 도와드립니다.
+
 
 # how to route?
 
