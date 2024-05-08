@@ -26,6 +26,7 @@ node.js를 설치한다. <br/>
 ### next.js 설치
 1. vscode에서
 1. <kbd>ctrl</kbd> + <kbd>`</kbd>
+![이미지 설명](https://github.com/freebird920/bongcoder/blob/master/src/markdown/img/vscodeterminal.png?raw=true)
 1. 터미널에 npx create-next-app@latest 입력
 ```bash
 npx create-next-app@latest
