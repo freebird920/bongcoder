@@ -4,6 +4,10 @@ It's time to practice Next.js
 
 # how to route?
 
+## VS code 설치
+[다운로드링크](https://code.visualstudio.com/)
+
+
 1. ./src/app/ 아래에 적절한 이름의 폴더를 만든다.
 2. ./src/app/[새로운폴더이름]
 3. ./src/app/[새로운폴더이름]/page.tsx
