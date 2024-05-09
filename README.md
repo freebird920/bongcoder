@@ -3,6 +3,9 @@ Hi. Bong-Coders.
 It's time to practice Next.js
 
 
+## 목차
+1. [5월 9일 내용 및 숙제](#5월-9일)
+
 ## 개발환경 세팅
 
 
@@ -86,4 +89,57 @@ return (
     <a href="/">Home</a>
   </li>
 );
+```
+
+
+## 5월 9일
+
+### 함수
+javascript에서 함수 정의하는 방법
+```javascript
+// function 키워드를 이용한 함수 정의
+function 함수명(인자1, 인자2, ...){
+    //함수 내용
+    return (반환값)
+}
+
+// 화살표 함수를 이용한 함수 정의
+const 함수명 = (인자1, 인자2, ...) => {
+    //함수 내용
+    return (반환값)
+}
+```
+
+예시
+```javascript
+
+function 사람(음식){
+  return `${음식} 똥`
+}
+
+console.log(사람("치킨")) 
+// 콘솔에 "치킨 똥"이 출력된다.
+
+function add(a, b){
+    return a + b;
+}
+
+const add = (a, b) => {
+    return a + b;
+}
+```
+
+### form 태그
+form 태그는 사용자로부터 입력을 받고 이것을 어디론가 전송하는 태그이다.
+```typescript
+
+export default function FormPage(){
+    return (
+        <form>
+            <input type="text" placeholder="이름"/>
+            <input type="number" placeholder="나이"/>
+            <button type="submit">제출</button>
+        </form>
+    )
+}
 ```
