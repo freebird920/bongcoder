@@ -235,3 +235,36 @@ export default function TestPage() {
   );
 }
 ```
+
+
+## 5월 23일
+
+### CUSTOM COMPONENTS 
+REACT에서는 컴포넌트를 만들어서 재사용성을 높일 수 있다. 
+
+### 컴포넌트 만드는 방법
+컴포넌트는 함수로 만들어진다. 함수명은 **대문자**로 시작해야 한다. 
+```tsx
+// @/src/components/MyComponent
+export default function MyComponent() {
+  return (
+    <div>
+      <h1>나는 컴포넌트입니다.</h1>
+    </div>
+  );
+}
+```
+
+### 컴포넌트 사용하는 방법
+컴포넌트를 사용할 때는 import를 이용해서 불러온다. 
+
+```tsx
+import MyComponent from "@/src/components/MyComponent";
+export default function TestPage() {
+  return (
+    <>
+      <MyComponent />
+    </>
+  );
+}
+```
