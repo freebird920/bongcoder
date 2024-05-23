@@ -239,6 +239,22 @@ export default function TestPage() {
 
 ## 5월 23일
 
+### useState 복습
+useState는 react에서 상태를 관리하는 함수이다. state는 컴포넌트 내에서 변하는 값을 저장하는 변수이다. 메모리에 state를 저장해두고 state가 변경되면 컴포넌트를 다시 **렌더링** 한다. 실시간으로 상태를 업데이트 하고 이 상태를 다시 클라이언트의 브라우저에 보여주기 위해 사용한다. 
+```tsx
+'use client' // next.js 프로젝트에서 useState를 사용하려면 반드시 'use client'를 작성해야 한다. 
+export default function testPage(){
+  const [testState, setTestState] = useState("초기값") // useState를 사용해서 testState라는 상태를 만들고 초기값을 "초기값"으로 설정한다.
+  return(
+    <>
+      <p>{testState}</p> // testState를 보여준다.
+      <button onClick={()=>{setTestState("변경된 값")}}>버튼</button> // 버튼을 누르면 testState의 값을 "변경된 값"으로 변경한다.
+    </>
+  )
+}
+```
+
+
 ### CUSTOM COMPONENTS 
 React에서는 컴포넌트를 만들어서 재사용성을 높일 수 있다. 
 React 컴포넌트는 함수로 만들어지는데, 함수를 불러와서 실행하고 함수가 실행되면 함수가 있던 자리에 렌더링 할 html요소를 남긴다.
