@@ -240,8 +240,23 @@ export default function TestPage() {
 ## 5월 23일
 
 ### CUSTOM COMPONENTS 
-REACT에서는 컴포넌트를 만들어서 재사용성을 높일 수 있다. 
+React에서는 컴포넌트를 만들어서 재사용성을 높일 수 있다. 
+React 컴포넌트는 함수로 만들어지는데, 함수를 불러와서 실행하고 함수가 실행되면 함수가 있던 자리에 렌더링 할 html요소를 남긴다.
+```tsx
+function testFunction(){
+  return("리턴값") // 이 부분이 남는것
+}
+testFunction() // "리턴값이 남는다."
 
+
+// 마찬가지로 컴포넌트도 함수로 만들어진다.
+function TestComponent(){
+  return(<div>나는 컴포넌트입니다.</div>) // <div>나는 컴포넌트입니다.</div> 이 부분이 남는다.
+}
+
+
+
+```
 ### 컴포넌트 만드는 방법
 컴포넌트는 함수로 만들어진다. 함수명은 **대문자**로 시작해야 한다. 
 ```tsx
