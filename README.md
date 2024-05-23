@@ -3,8 +3,8 @@ Hi. Bong-Coders.
 It's time to practice Next.js
 
 ## 목차
-
 1. [5월 9일 내용 및 숙제](#5월-9일)
+2. [5월 23일 내용 및 숙제](#5월-23일)
 
 ## 개발환경 세팅
 
