@@ -299,3 +299,32 @@ export default function TestPage() {
   );
 }
 ```
+
+
+## 5월 30일 
+
+### css
+css는 cascaded style sheet의 약자로 html요소에 스타일을 입히는 언어이다. 
+
+### tailwind css
+tailwind css는 css 프레임워크로, 클래스를 이용해서 스타일을 입히는 방식이다. css의 사용방법이 복잡하고 불편하기 때문에 tailwind css를 사용하면 편리하다. 
+
+tailwind에서는 html 태그 안에 class를 이용해서 스타일을 입힌다. react에서는 className을 사용한다. `className="클래스명"`으로 사용하고 각 클래스명은 띄어쓰기로 구분한다. 
+```tsx
+<div>
+  <h1 className="text-2xl font-bold">나는 h1태그입니다.</h1>
+</div>
+```
+
+React에서 tailwind를 사용하는 방법은 다음과 같다. 
+```tsx
+export default function TailwindTestPage(){
+  return(
+    <>
+      <h1 className="font-bold text-xl text-center">나는 h1태그입니다.</h1>
+      <p className="font-sans font-normal ">나는 본문 문장입니다.</p>
+      <button className="border-2 rounded-md p-1">나는 버튼입니다.</button>
+    </>
+  )
+}
+```
