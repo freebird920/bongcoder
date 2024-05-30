@@ -328,3 +328,25 @@ export default function TailwindTestPage(){
   )
 }
 ```
+
+### layout.tsx
+layout.tsx는 페이지의 레이아웃을 정하는 파일이다. 페이지의 레이아웃을 정하는 파일이기 때문에 페이지마다 공통적으로 들어가는 요소들을 여기에 넣어두면 편리하다. 
+파일명은 반드시 layout.tsx로 해야 한다. 
+```tsx
+// ... 
+export default function Layout({ children }) {
+  return (
+    <html>
+      <nav> </nav>
+      <main>{children}</main>
+    </html>
+  );
+}
+``` 
+
+
+### <a> 태그
+a 태그는 링크를 걸어주는 태그이다. href 속성에 링크 주소를 넣어주면 된다. 
+```tsx
+<a href="링크주소">링크이름</a>
+```
