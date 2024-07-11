@@ -1,13 +1,16 @@
+'use client'
+import { useState } from "react";
+
 export default function HomePage() {
-
-  function 여늬함수(글자:string){
-    let 답장 =  글자 + "님 안녕하세요";
-    return 답장;
+    const [myinputvalue, setMyinputvalue] = useState("초기값이다 ㅋ");
+    return (
+      <>
+      <div>
+        <p>{myinputvalue}</p>
+      </div>
+      <input name="myiputida" type="text" value={myinputvalue} onChange={(event)=>{
+        setMyinputvalue(event.target.value);
+      }}/>
+      </>
+    );
   }
-
-  return (
-    <>
-      <h1>{여늬함수("연희쨩")}</h1>
-    </>
-  );
-}

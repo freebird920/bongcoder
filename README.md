@@ -728,3 +728,39 @@ export defaulut function UsestateTest(){
 - 눌려눌려라는 html button을 만든다.
 - ```<p>``` 태그 안에 mynumberdesu를 출력하게 만든다. 
 
+
+### useState에서 input 값 활용하기 
+####  ```<input/>``` 태그
+- ```<input/>``` 태그는 이용자로 부터 어떤 입력값을 받는 태그이다.
+- ```<input/>``` 태그는 주로 ```<form>```과 함께 쓰는데, 나중에 알려줄 예정이다.
+- ```<input/>``` 태그는 name, type, onChange, value, defaultValue 등의 속성을 가진다. 
+- ```<input/>``` 태그의 onChange 속성에서 이용자의 입력 값에 접근 하는 방법은 아래와 같이 event.target.value에 접근 하면됨.
+- ```<input onChange={(event)=>{let inputValue= event.target.value}}/>```
+```tsx
+export default function InputPractice(){
+  const [myinputvalue, setMyinputvalue] = useState("초기값이다 ㅋ");
+  return (
+    <>
+    <div>
+      <p>{myinputvalue}</p>
+    </div>
+      <input name="myiputida" type="text" value={myinputvalue} onChange={(event)=>{
+        setMyinputvalue(event.target.value);
+      }}/>
+    </>
+  );
+}
+```
+
+#### 문제 
+### 문제
+- 페이지를 하나 만든다. 
+- 페이지의 주소는 ./usestatetest
+- 페이지의 제목은 use state 테스트 합니다. 
+- use client로 클라이언트 컴포넌트로 만든다. 
+- useState로 mynumberdesu 이름으로 state 초기화 한다. 초기값은 0 이다.
+- useState로 myresultnumber 이름으로 state 초기화 한다. 초기값은 0 이다.
+- input을 태그를 만든다. input에 뭔가 숫자를 입력하면 mynumberdesu state의 값이 입력값ㅇ로 바꾼다. 
+- 눌려눌려라는 html button을 만든다.
+- 눌려눌려가 눌려지면 지금 input 태그에 입력된 숫ㅈ자를 myresultnuber에 더한다. 
+- ```<p>``` 태그 안에 myresultnuber에 출력하게 만든다. 근데 결과: 다음에 그 답이 나오게 한다.
