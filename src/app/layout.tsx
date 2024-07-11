@@ -16,16 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body className="min-h-screen ">
-        <nav>
-          <CompNavbar />
-        </nav>
-
-        {children}
-        <footer className="border-t-2 my-auto">
-          <p>Footer</p>
-        </footer>
-      </body>
+      <body className="min-h-screen ">{children}</body>
     </html>
   );
 }

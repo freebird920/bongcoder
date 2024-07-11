@@ -1,8 +1,13 @@
 export default function HomePage() {
+
+  function 여늬함수(글자:string){
+    let 답장 =  글자 + "님 안녕하세요";
+    return 답장;
+  }
+
   return (
     <>
-      <h1>홈페이지입니다.</h1>
-      <p>안에 들어갈 내용을 적으세요.</p>
+      <h1>{여늬함수("연희쨩")}</h1>
     </>
   );
 }
