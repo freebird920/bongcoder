@@ -666,4 +666,33 @@ export default function Htmlvariable(){
 
 
 
+### React에서 useState 활용하기
+- React.js의 가장 큰 특징은 Single Page Application 이라는 것.
+- 새로고침 하지 않고도 화면을 업데이트 하여 마치 application 처럼 웹 페이지를 부드럽게 작동할 수 있게 함. 
+
+
+#### useState
+- useState 훅은 가장 .tsx 파일의 가장 상단에 ```'use client'```를 반드시 써줘야 한다.
+- useState는 ```const [statename, setStatename] = useState()``` 와 같이 초기화 한다.
+- 초기 값을 지정하려면 ```useState()```의 ```()``` 안에 초기 값을 지정한다. ```useState(초기값)```
+```tsx
+'use client'
+
+export defaulut function UsestateTest(){
+  const [mystate, setMystate] = useState("초기값");
+
+  function 값바꾸기(){
+    return setMystate("바뀐값"); // 이 함수가 호출되면 초기값이 바뀐값으로
+  }
+  return(
+    <>
+      <div>{mystate}</div>
+      <button onClick={값바꾸기}>버튼 뉼려보셈</button>
+    </>
+  )
+}
+
+```
+
+
 
